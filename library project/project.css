@@ -1,0 +1,98 @@
+.admin{
+background-image:url("admin2.jfif");
+background-repeat:no-repeat;
+background-size:cover;
+text-align:left;
+color:white;
+border-style:solid;
+    
+ border-radius: 25px;
+  
+  padding: 20px; 
+  width: 700px;
+  height: 500px; 
+ }
+.student{
+background-image:url("admin2.jfif");
+background-repeat:no-repeat;
+background-size:cover;
+text-align:left;
+color:white;
+border-style:solid;
+    
+ border-radius: 25px;
+  
+  padding: 20px; 
+  width: 700px;
+    height: 700px;  
+
+ }
+#foot{
+height:100px;
+width:1500px;
+margin-top:50px;
+color:BLACK;
+background-color:#ADB4B6;
+text-align:center;
+}
+.login{
+background-image:url("admin2.jfif");
+background-repeat:no-repeat;
+background-size:cover;
+
+color:white;
+border-style:solid;
+    
+ border-radius: 25px;
+  
+  padding: 20px; 
+  width: 700px;
+  height: 500px; 
+ }
+.adminpage{
+width:200px;
+height:100px;
+margin-left:20px;
+margin-top:200px;
+background-color:blue;
+color:white;
+}
+#a1{
+font-size:100;
+color:yellow;
+}
+#a2{
+font-size:100;
+color:yellow;
+}
+#a3{
+font-size:100;
+color:yellow;
+}
+#a4{
+font-size:100;
+color:yellow;
+}
+#a5{
+font-size:100;
+color:yellow;
+}
+#image{
+
+width:50px;
+height:50px;
+}
+.register{
+background-image:url("admin2.jfif");
+background-repeat:no-repeat;
+background-size:cover;
+
+color:white;
+border-style:solid;
+    text-align:left;
+ border-radius: 25px;
+  
+  padding: 20px; 
+  width: 700px;
+  height: 500px; 
+ }

@@ -1,0 +1,59 @@
+<html>
+
+<head><h1 style="text-align:center;">Fill Your Details</h1>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="project.css">
+<script src="project.js" type="text/javascript"></script>
+
+</head>
+<script>
+function validateform(){
+var fname=document.myform.fname.value;
+var mname=document.myform.mname.value;
+var lname=document.myform.lname.value;
+var uname=document.myform.uname.value;
+var pass=document.myform.pass.value;
+var cpass=document.myform.cpass.value;
+if(fname==null||fname==""||mname==null||mname==""||lname==null||lname==""||uname==null
+||uname==""||pass==null||pass==""||cpass==null||cpass==""){
+alert("fill all the fields");
+return false;
+}
+
+}
+</script>
+
+
+<body>
+<center>
+<form name="myform" method="post" action="registeredlogin.html"  onsubmit="return validateform()">
+<div class="register"><b>
+<h1>Register</h1>
+<input type="text" name="fname" placeholder="First Name" value="" required="required" ><br><br>
+<input type="text" name="mname" value="" placeholder="Middle Name"><br><br>
+<input type="text" name="lname" value="" placeholder="Last Name"><br><br>
+<input type="text" name="uname" value="" placeholder="User Name"><br><br>
+<input type="text" name="pass" value="" placeholder="password"><br><br>
+<input type="text" name="cpass" value="" placeholder="confirm password"><br><br>
+<u>Gender:</u><br><input type="radio" name="t">Male
+<input type="radio" name="t">FeMale
+<input type="radio" name="t">Other<br>
+<u>Date-of-birth:</u><br><input type="date"><br><br>
+<br><br>
+
+<input type="submit" value="register">
+</form>
+</div>
+</center>
+</select><br><br>
+<option
+
+<div id="foot">
+<footer>&copy;copy right 2019</footer></div>
+</body>
+</html>
+
